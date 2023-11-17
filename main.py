@@ -58,7 +58,7 @@ def shooting_begins(camera, capture_flag, previous, video_resolution):
         return 1
     else:  #  target を検出しなくなったら撮影終了
         camera.stop_recodeing()
-    return 2
+        return 2
 
 
 def main(target):
